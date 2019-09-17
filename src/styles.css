@@ -76,7 +76,7 @@ body {
 .person:hover {
   background-color: #eeeeee;
   border-radius: 12px;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .person:hover .person__extra span {
   display: inline;
