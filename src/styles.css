@@ -59,7 +59,8 @@ body {
   margin: auto;
 }
 .person__extra span {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
   font-size: 18px;
   line-height: 21px;
 }
@@ -79,7 +80,8 @@ body {
   transform: scale(1.2);
 }
 .person:hover .person__extra span {
-  display: inline;
+  /*display: inline;*/
+  opacity: 1;
 }
 .person:hover .person__photo {
   border-radius: 60px;
