@@ -59,7 +59,6 @@ body {
   margin: auto;
 }
 .person__extra span {
-  /*display: none;*/
   opacity: 0;
   font-size: 18px;
   line-height: 21px;
@@ -78,9 +77,9 @@ body {
   background-color: #eeeeee;
   border-radius: 12px;
   transform: scale(1.2);
+  z-index: 1;
 }
 .person:hover .person__extra span {
-  /*display: inline;*/
   opacity: 1;
 }
 .person:hover .person__photo {
